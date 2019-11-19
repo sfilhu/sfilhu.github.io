@@ -42,7 +42,7 @@ function getMusicText(arr) {
         axios.get(`https://api.vagalume.com.br/search.php?apikey=660a4395f992ff67786584e238f501aa&art=${item.name}&mus=${item.music}`)
         .then( resp => {
             count++
-            if(resp.data.type === 'song_notfound') { 
+            if(resp.data.type === 'song_notfound' || resp.data.type === 'notfound') { 
                 $('.form').addClass('none');   
                 $('.not-found').removeClass('none')
                 $('.list-not-found').append(`<li>${item.name} - ${item.music}</li>`)
