@@ -51,7 +51,7 @@ function getMusicText(arr) {
             } else {
                 item.song = resp.data.mus[0].text;
                 if(count == newArr.length) {
-                    // pdf(newArr)
+                    pdf(newArr)
                 }
             }
         })   
