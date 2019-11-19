@@ -36,7 +36,6 @@ function getMusicText(arr) {
         }
     })
 
-    // console.log(newArr)
     let count = 0
     let arrNotFound = []
     newArr.forEach( item => {
@@ -56,7 +55,6 @@ function getMusicText(arr) {
             }
         })   
     })
-   
 }
 
 function pdf(arrPdf) {
