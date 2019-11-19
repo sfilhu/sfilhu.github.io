@@ -1,4 +1,14 @@
-html{
-    font-family: 'Indie Flower', cursive;
-    background-image: linear-gradient(to bottom, white, purple);
-}
+html {
+    height: 100%;
+    color: #fff
+  }
+  
+  html {
+    background-size: cover;
+    background-position: center;
+    background: 
+      linear-gradient(to bottom, #87517f 0%, #513b4a 100%),
+      linear-gradient( -45deg, #d62c35, transparent),
+      linear-gradient( 45deg, #513b4a, transparent), center center / cover no-repeat;
+      background-blend-mode: multiply;
+  }
